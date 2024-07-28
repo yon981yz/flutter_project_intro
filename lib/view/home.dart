@@ -65,7 +65,7 @@ class _homeState extends State<home> {
               Padding(
                 padding: const EdgeInsets.fromLTRB(8,8,8,8),
                 child: GestureDetector(
-                  onTap: () => Navigator.pushNamed(context,'/'),
+                  onTap: () => Navigator.pushNamed(context,'/ws'),
                   child: Image.asset(
                     'images/cha.png',
                     width: 75,
