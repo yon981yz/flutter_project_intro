@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_project_intro/view/changbin.dart';
+import 'package:flutter_project_intro/view/home.dart';
 import 'package:flutter_project_intro/view/sw.dart';
 import 'package:flutter_project_intro/view/yonghyuk.dart';
 
@@ -18,7 +20,10 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       routes: {
-        '/' : (context) => const Sw(),
+        '/' : (context) => const home(),
+        '/yh' : (context) => const YongHyuk(),
+        '/cb' : (context) => const Changbin(),
+        '/sw' : (context) => const Sw(),
       },
       initialRoute: '/',
     );
