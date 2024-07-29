@@ -12,9 +12,9 @@ class _SwState extends State<Sw> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: Text("윤성엽"),
+          title: const Text("윤성엽"),
         ),
-        body: Center(
+        body: const Center(
             child:
                 Column(mainAxisAlignment: MainAxisAlignment.center, children: [
           CircleAvatar(
